@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 5%;
+    width: 430px;
+}
+
+.screen {
+    background-color: rgb(2, 2, 70);
+    padding: 20px;
+    width: 91%;
+    color: white;
+    font-size: 60px;
+    border: none;
+    text-align: right;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    flex: 22%;
+    font-size: 64px;
+    border: 1px solid black;
+}
+
+.operators {
+    background-color: orange;
+}
+
+.clear {
+    background-color: red;
+}
+
+.equal {
+    background-color: green;
+}
